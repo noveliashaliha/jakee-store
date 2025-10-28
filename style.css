@@ -1,0 +1,172 @@
+/* ========== RESET & DASAR ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #F9E0BB; /* cream */
+  color: #000000;
+}
+
+/* ========== HEADER ========== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4F200D; /* coklat */
+  padding: 20px 60px;
+  color: #F9E0BB; /* cream */
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+}
+
+nav a {
+  color: #F9E0BB;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+  background: url('images/jacket1.jpg') center/cover no-repeat;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1em;
+}
+
+.hero button {
+  margin-top: 20px;
+  background-color: #4F200D;
+  color: #F9E0BB;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background-color: #000000;
+  color: #F9E0BB;
+}
+
+/* ========== PRODUK ========== */
+.produk {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #F9E0BB;
+  color: #4F200D;
+}
+
+.produk h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.produk-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 280px;
+  border: 2px solid #4F200D;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card h3 {
+  color: #4F200D;
+  margin-top: 10px;
+}
+
+.card p {
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* ========== TENTANG ========== */
+.tentang {
+  background-color: #4F200D;
+  color: #F9E0BB;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.tentang p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ========== KONTAK ========== */
+.kontak {
+  text-align: center;
+  padding: 60px;
+  background-color: #fff;
+  color: #4F200D;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #000000;
+  color: #F9E0BB;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
