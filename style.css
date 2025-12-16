@@ -202,3 +202,18 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+.btn-hero {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #6b2d14;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-hero:hover {
+  background-color: #4f1f0e;
+}
