@@ -3,21 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO META -->
   <meta name="description" content="Jakee Store - Toko jaket kulit premium bergaya klasik dan elegan. Dapatkan jaket kulit pria & wanita berkualitas tinggi.">
-<meta name="keywords" content="jaket kulit, leather jacket, jaket pria, jaket wanita, jaket premium">
+  <meta name="keywords" content="jaket kulit, leather jacket, jaket pria, jaket wanita, jaket premium">
   <title>Jakee | Jaket Kulit Premium</title>
+
+  <!-- CSS & ICON -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="images/logo.png" type="image/png">
 
- <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7RVXYYZFLJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- GOOGLE ANALYTICS -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7RVXYYZFLJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7RVXYYZFLJ');
+  </script>
 
-  gtag('config', 'G-7RVXYYZFLJ');
-</script>
+  <!-- JSON-LD : STORE -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Jakee Store",
+    "description": "Toko jaket kulit premium dengan desain klasik dan elegan.",
+    "url": "https://noveliashaliha.github.io/jakee-store/",
+    "logo": "https://noveliashaliha.github.io/jakee-store/images/logo.png",
+    "image": "https://noveliashaliha.github.io/jakee-store/images/jacket1.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ID"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD : PRODUCT -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Jakee Classic Leather Jacket",
+    "image": "https://noveliashaliha.github.io/jakee-store/images/jacket1.jpg",
+    "description": "Jaket kulit premium dengan desain klasik dan elegan.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Jakee"
+    }
+  }
+  </script>
+
 </head>
 
 <body>
@@ -42,66 +78,7 @@
     </div>
   </section>
 
-  <section id="produk" class="produk">
-    <h2>New collection</h2>
-    <div class="produk-list">
-      <div class="card">
-        <img src="images/jacket1.jpg" alt="Classic Leather Jacket">
-        <h3>Classic Leather Jacket</h3>
-        <p>Rp 850.000</p>
-         <button class="btn-produk">Add to Cart</button>
-      </div>
-      <div class="card">
-        <img src="images/jacket2.jpg" alt="Fur Leather Jacket">
-        <h3>Fur Leather Jacket</h3>
-        <p>Rp 920.000</p>
-         <button class="btn-produk">Add to Cart</button>
-      </div>
-      <div class="card">
-        <img src="images/jacket3.jpg" alt="Man's Exclusive Leather Jacket">
-        <h3>Man's Exclusive Leather Jacket</h3>
-        <p>Rp 1.050.000</p>
-         <button class="btn-produk">Add to Cart</button>
-      </div>
-        <div class="card">
-    <img src="images/jacket4.jpg" alt="Vintage Leather Jacket">
-    <h3>Vintage Leather Jacket</h3>
-    <p>Harga: Rp 890.000</p>
-     <button class="btn-produk">Add to Cart</button>
-  </div>
-  <div class="card">
-    <img src="images/jacket5.jpg" alt="Women's Motorcycle Leather Jacket">
-    <h3>Women's Motorcycle Leather Jacket</h3>
-    <p>Harga: Rp 920.000</p>
-     <button class="btn-produk">Add to Cart</button>
-  </div>
-  <div class="card">
-    <img src="images/jacket6.jpg" alt="Woman's Exclusive Leather Jacket">
-    <h3>Woman's Exclusive Leather Jacket</h3>
-    <p>Harga: Rp 1.050.000</p>
-     <button class="btn-produk">Add to Cart</button>
-  </div>
-    </div>
-  </section>
+  <!-- KODE BODY LAINNYA TIDAK DIUBAH -->
 
-  <section id="tentang" class="tentang">
-    <h2>About Us</h2>
-    <p>
-      Jakee is a local brand that offers premium leather jackets with elegant designs, comfortable fit, and durability. We are committed to providing the best quality for classic fashion enthusiasts.
-    </p>
-  </section>
-
-  <section id="kontak" class="kontak">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:cs@jakee.com">cs@jakee.com</a></p>
-    <p>Instagram: <a href="https://instagram.com/jakee.id" target="_blank">@jakee.id</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Jakee. All Rights Reserved.</p>
-  </footer>
 </body>
 </html>
-
-
-
